@@ -7,4 +7,4 @@ Enter TAFI at command line and start modeling :)
 
 TAFI can be used as a teaching tool or as a research tool. Please cite Github page, when using TAFI.
 
-Developed by: Sumant Jha, Colorado State University, Fort Collins, CO, USA
+Developed by: Sumant Jha, Dennis Harry and Derek Schutt, Colorado State University, Fort Collins, CO, USA
