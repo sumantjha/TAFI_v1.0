@@ -1,0 +1,187 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3058061947" file="/home/sjha/Dropbox/GUIMatlab/TAFI/TAFI.prj" location="/home/sjha/Dropbox/GUIMatlab/TAFI" name="TAFI" target="target.mlapps" target-name="Package App">
+    <param.appname>TAFI</param.appname>
+    <param.authnamewatermark>Sumant Jha</param.authnamewatermark>
+    <param.email>sumant.jha@colostate.edu</param.email>
+    <param.company>Colorado State University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>Toolbox for Analysis of Flexural Isostasy</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/home/sjha/Dropbox/GUIMatlab/TAFI</param.output>
+    <param.guid>aa325bbd-3727-461b-b100-b8df5bae7a89</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/TAFI.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/Example_Data/Aleutian_bath_detrended.csv</file>
+      <file>${PROJECT_ROOT}/Example_Data/Aleutian_bathymetry_location.png</file>
+      <file>${PROJECT_ROOT}/Example_Data/Aleutian_gravity_detrended.csv</file>
+      <file>${PROJECT_ROOT}/GUI_functions/Default_backups/DefConstant_bkp.m</file>
+      <file>${PROJECT_ROOT}/GUI_functions/Default_backups/TAFI_defaults_bkp.m</file>
+      <file>${PROJECT_ROOT}/GUI_functions/GUI_Function_Utilities/TAFI_defaults.m</file>
+      <file>${PROJECT_ROOT}/GUI_functions/GUI_Function_Utilities/harmonicoff.m</file>
+      <file>${PROJECT_ROOT}/GUI_functions/GUI_Function_Utilities/harmonicon.m</file>
+      <file>${PROJECT_ROOT}/GUI_functions/GUI_Function_Utilities/setTAFIenv.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Geodynamic_Utilities/DefConstant.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Geodynamic_Utilities/flexparam.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Geodynamic_Utilities/flexure_Callback.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Geodynamic_Utilities/x_vector.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Green's_functions/Continuous2D_flex.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Green's_functions/Continuous3D_flex.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Green's_functions/Continuous3Dgrid_flex.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Green's_functions/Halfspace2D_flex.m</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions/Sinusoidal/Harmonic2D_flex.m</file>
+      <file>${PROJECT_ROOT}/Gravity_functions/gravity_Callback.m</file>
+      <file>${PROJECT_ROOT}/Gravity_functions/parkg.m</file>
+      <file>${PROJECT_ROOT}/Gravity_functions/parkg_3D.m</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/2-Dloaddemo.csv</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/3-Dloaddemo.xlsx</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/3-Dpointload-2load.xlsx</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/3-Dpointload-demo.xlsx</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/3Dload50.txt</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/3Dload500.txt</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/3Dload5000.txt</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles/Load_Readme.rtf</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Convolution/loadconv2D.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Convolution/loadconv3D.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Import_Load/GridImport.fig</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Import_Load/GridImport.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Import_Load/ImportLoad.fig</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Import_Load/ImportLoad.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Load_Function_Utilities/ReadLoad2D.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Load_Function_Utilities/ReadLoad3D.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Load_Function_Utilities/loadspacinginterp.m</file>
+      <file>${PROJECT_ROOT}/Load_Functions/Load_Function_Utilities/rmload_Callback.m</file>
+      <file>${PROJECT_ROOT}/Output_Parameters/numcal_xcross.m</file>
+      <file>${PROJECT_ROOT}/Output_Parameters/outputparam.m</file>
+      <file>${PROJECT_ROOT}/Plot_Function/TAFIPlot2D.m</file>
+      <file>${PROJECT_ROOT}/Plot_Function/TAFIPlot3D.m</file>
+      <file>${PROJECT_ROOT}/Plot_Function/calcindex.m</file>
+      <file>${PROJECT_ROOT}/TAFI.fig</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/filelist.xml</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/header.html</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image001.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image002.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image003.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image004.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image005.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image006.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image007.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image008.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image009.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image010.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image011.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image012.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image013.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image014.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image015.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image016.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image017.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image018.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image019.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image020.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image021.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image022.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image023.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image024.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image025.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image026.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image027.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image028.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image029.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image030.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image031.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image032.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image033.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image034.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image035.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image036.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image037.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image038.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image039.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image040.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image041.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image042.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image043.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image044.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image045.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image046.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image047.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image048.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image049.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image050.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image051.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image052.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image053.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image054.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image055.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image056.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image057.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image058.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image059.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/image060.png</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.fld/themedata.thmx</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/TAFI_Manual.html</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/Toolbox for Analysis of Flexural Isostasy (TAFI).docx</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual/Toolbox for Analysis of Flexural Isostasy (TAFI).pdf</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/Example_Data</file>
+      <file>${PROJECT_ROOT}/GUI_functions</file>
+      <file>${PROJECT_ROOT}/Geodynamic_functions</file>
+      <file>${PROJECT_ROOT}/Gravity_functions</file>
+      <file>${PROJECT_ROOT}/LoadDemofiles</file>
+      <file>${PROJECT_ROOT}/Load_Functions</file>
+      <file>${PROJECT_ROOT}/Output_Parameters</file>
+      <file>${PROJECT_ROOT}/Plot_Function</file>
+      <file>${PROJECT_ROOT}/README.txt</file>
+      <file>${PROJECT_ROOT}/TAFI_Manual</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/sjha/Dropbox/GUIMatlab" name="TAFI" optional="false">/home/sjha/Dropbox/GUIMatlab/TAFI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2016a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>3.15.10-200.fc20.x86_64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
